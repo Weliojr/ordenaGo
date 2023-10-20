@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt"
+	"sorts/bubblesort"
+)
+ 
 type Senhas struct {
 	Tamanho     int
 	Senha       string
@@ -25,4 +28,5 @@ func main() {
 	fmt.Println("|------------------------|")
 	lista.Remove("casa1234")
 	lista.getLista()
+	bubblesort()
 }
